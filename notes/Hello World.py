@@ -87,10 +87,48 @@ for i in range(5):  # This gives the numbers 0 through 4
 for i in range(10):
     print(i+1)
 
-for i in range(5)
+for i in range(5):
     f(i)
-    
 
+# While logos
+
+a = 0
+while a < 6:
+    print(a)
+    a += 1
+
+"""
+At the moment you START the loop:
+For loops - Use when you know EXACTLY how many iterations (how many times)
+While loops - Use when you know DON'T know how many iterations    
+"""
+
+
+sunny = True
+
+if sunny:
+    print("Go Outside")
+
+
+
+def grade_calc(percentage):
+    if percentage >= 90:
+        return "A"
+    elif percentage >= 80:
+        return "B"
+    elif percentage >= 70:
+        return "C"
+    elif perecnetage >= 60:
+        return "D"
+    else:
+        return "F"
+
+your_grade = grade_calc(82)
+print(your_grade)
+
+# "Random" Notes
+import random  # This should be on line 1
+print(random.randint(0, 100))
 
 
 
