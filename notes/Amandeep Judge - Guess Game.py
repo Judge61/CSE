@@ -1,15 +1,18 @@
-import random
-print(random.randint(0, 10))
-playing = True
-guesses_left = 5
-while guesses_left > 0 and playing:
-    if percentage >= 90:
-        return "A"
-    elif percentage >= 80:
-        return "B"
-    elif percentage >= 70:
-        return "C"
-    elif percentage >= 60:
-        return "D"
-    else:
-        return "F"
+number = 5
+guesses = 5
+win = False
+
+while guesses > 0:
+    num = int(input("What's a number from 1-10"))
+    if num > 11:
+        print("Way too high ")
+        guesses = guesses - 1
+    elif num > number:
+        print("The number is lower")
+        guesses = guesses - 1
+    elif num < number:
+        print("The number is higher")
+        guesses = guesses - 1
+    elif num == number:
+        print("congratulations!!!!")
+        guesses = 0
