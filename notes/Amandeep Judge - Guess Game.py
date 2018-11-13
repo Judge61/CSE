@@ -16,3 +16,4 @@ while guesses > 0:
     elif num == number:
         print("congratulations!!!!")
         guesses = 0
+alt1
