@@ -143,3 +143,5 @@ a = 3 # A is set up to 3
 a == 3 # is equal to 3?
 
 """
+else used for if its not one of the following
+while money is greater than 0 keep the loop running (Lucky 7's)')
