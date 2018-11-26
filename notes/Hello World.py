@@ -143,5 +143,36 @@ a = 3 # A is set up to 3
 a == 3 # is equal to 3?
 
 """
-else used for if its not one of the following
-while money is greater than 0 keep the loop running (Lucky 7's)')
+
+# creating a list
+colors = ["blue", "maroon", "magenta", "cyan", "red"]
+print(colors)
+print(colors[1])
+print(colors[0])
+
+# Length of the list
+print("There are %d things in the list." % len(colors))
+
+# changing elements in a list
+colors[1] = "Green"
+print(colors)
+
+# Looping through lists
+for item in colors:
+    print(item)
+
+fruits = ["blueberries", "strawberries", "apples", "pineapples", "cranberries", "passion fruit", "dragon fruit"]
+print(fruits)
+fruits[2] = "mango"
+print(fruits[2])
+print(fruits)
+
+new_list = ["eggs", "cheese", "oranges"]
+new_list[2] = "Bacon"
+print(new_list)
+print("The last thing in the list is %s" % new_list[len(new_list) - 1])
+
+# Slicing a list
+print(new_list[1:3])
+print(new_list[1:4])
+print(new_list[:4])
