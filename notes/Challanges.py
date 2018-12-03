@@ -1,2 +1,2 @@
 def challenge1(firstname, lastname):
-    return (John_Doe)
+    return (John Doe)
