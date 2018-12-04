@@ -12,8 +12,8 @@ List1.append(input("Put in a feeling : "))
 List1.append(input("Put in a feeling : "))
 List1.append(input("Put in a thing or an object :  "))
 
-print("As a %s you have to be %s and do stuff like %s, %s, and %s" % (List1[0], Adjective1, Verb1, Verb2, Verb3))
-print("You get to go to places like %s, %s, and %s. " % (place1, place2, place3))
-print("You might feel %s or %s but remember to not forget about the glorious %s" % (feeling1, feeling2, thing))
+print("As a %s you have to be %s and do stuff like %s, %s, and %s" % (List1[0], List1[1], List1[2], List1[3], List1[4]))
+print("You get to go to places like %s, %s, and %s. " % (List1[5], List1[6], List1[7]))
+print("You might feel %s or %s but remember to not forget about the glorious %s" % (List1[8], List1[9], List1[10]))
 
 
