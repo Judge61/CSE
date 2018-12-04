@@ -11,13 +11,13 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/notes$Lucky_7_s___Amandeep_Judge.coverage" NAME="Lucky 7's - Amandeep Judge Coverage Results" MODIFIED="1543253019701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1543424576928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/notes$Challanges.coverage" NAME="Challanges Coverage Results" MODIFIED="1543857764683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$Challanges.coverage" NAME="Challanges Coverage Results" MODIFIED="1543945476078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Amandeep_Judge___Guess_Game.coverage" NAME="Amandeep Judge - Guess Game Coverage Results" MODIFIED="1542216596406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Amandeep_Judge_Mad_lib.coverage" NAME="Amandeep Judge-Mad lib Coverage Results" MODIFIED="1542216644733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Hello_World.coverage" NAME="Hello World Coverage Results" MODIFIED="1543513406597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$testing.coverage" NAME="testing Coverage Results" MODIFIED="1543857672998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Amandeep_Judge___Fix_It.coverage" NAME="Amandeep Judge - Fix_It Coverage Results" MODIFIED="1543858657405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/notes$Amandeep_Judge__Mad_Libs_2.coverage" NAME="Amandeep Judge- Mad Libs 2 Coverage Results" MODIFIED="1543600673196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$Amandeep_Judge__Mad_Libs_2.coverage" NAME="Amandeep Judge- Mad Libs 2 Coverage Results" MODIFIED="1543942755885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Amandeep_Judge___Test.coverage" NAME="Amandeep Judge - Test Coverage Results" MODIFIED="1543858040934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Long_List.coverage" NAME="Long List Coverage Results" MODIFIED="1543511808671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
@@ -58,32 +58,33 @@
           <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.57" value="2" />
           <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="19" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="Python" value="20" />
           <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="py" value="13526" />
+          <entry key="py" value="13973" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="11579" />
+          <entry key="Python" value="12026" />
           <entry key="Scratch" value="1947" />
         </counts>
       </usages-collector>
@@ -97,19 +98,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lucky 7's - Amandeep Judge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amandeep Judge-Mad lib.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="14" selection-end-column="111" />
+              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -117,13 +109,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amandeep Judge - Fix_It.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="765">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hello World.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Challanges.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1543945476024" expanded="true" signature="37:42" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amandeep Judge- Mad Libs 2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -133,38 +146,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Challanges.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-              <folding>
-                <marker date="1543858434162" expanded="true" signature="36:41" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hello World.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1087">
-              <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Long List.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="548">
               <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amandeep Judge - Hangman.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Lucky 7's - Amandeep Judge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -192,8 +188,8 @@
         <option value="$PROJECT_DIR$/Amandeep Judge - Test.py" />
         <option value="$PROJECT_DIR$/testing.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/Long List.py" />
-        <option value="$PROJECT_DIR$/Challanges.py" />
         <option value="$PROJECT_DIR$/Amandeep Judge- Mad Libs 2.py" />
+        <option value="$PROJECT_DIR$/Challanges.py" />
       </list>
     </option>
   </component>
@@ -247,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Amandeep Judge - Fix_It">
+  <component name="RunManager" selected="Python.Challanges">
     <configuration name="Amandeep Judge - Fix_It" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -413,11 +409,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Challanges" />
+        <item itemvalue="Python.Amandeep Judge- Mad Libs 2" />
         <item itemvalue="Python.Amandeep Judge - Fix_It" />
         <item itemvalue="Python.Amandeep Judge - Test" />
-        <item itemvalue="Python.Challanges" />
         <item itemvalue="Python.testing" />
-        <item itemvalue="Python.Amandeep Judge- Mad Libs 2" />
       </list>
     </recent_temporary>
   </component>
@@ -436,8 +432,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" weight="0.30181542" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.30181542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25718608" />
       <window_info id="Favorites" order="2" sideWeight="0.50163937" side_tool="true" weight="0.2708018" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -459,6 +456,29 @@
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.30181542" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25718608" />
+      <window_info id="Favorites" order="2" sideWeight="0.50163937" side_tool="true" weight="0.2708018" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.40163934" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32851985" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -487,15 +507,22 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amandeep Judge - Guess Game.py">
+    <entry file="file://$PROJECT_DIR$/testing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amandeep Judge - Hangman.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amandeep Judge - Guess Game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lucky 7's - Amandeep Judge.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,48 +531,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.py">
+    <entry file="file://$PROJECT_DIR$/Amandeep Judge-Mad lib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Long List.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="548">
           <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello World.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1087">
-          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amandeep Judge - Fix_It.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="765">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Challanges.py">
+    <entry file="file://$PROJECT_DIR$/Hello World.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding>
-            <marker date="1543858434162" expanded="true" signature="36:41" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amandeep Judge-Mad lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="111" />
+        <state relative-caret-position="151">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -553,6 +563,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challanges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1543945476024" expanded="true" signature="37:42" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
