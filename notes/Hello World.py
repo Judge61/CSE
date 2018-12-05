@@ -144,3 +144,4 @@ a == 3 # is equal to 3?
 
 """
 
+num: int(input("Enter a number"))# use this whenever you want them to answer something while it is running

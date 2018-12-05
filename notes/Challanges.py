@@ -4,5 +4,12 @@ def challenge_1(firstname, lastname):
 
 print(challenge_1("Amandeep", "Judge"))
 
-num: int(input("Enter a number"))    # use this whenever you want them to answer something while it is running
+
+def challange_2(number):
+    if number % 2 == 0:
+        print('The number is even')
+    else:
+        print('The number is odd')
+
+// meaning and % meaning
 
