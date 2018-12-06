@@ -5,12 +5,12 @@ print("Hello World!")
 # but this does allow me to do things. I can:
 # 1. Make notes to myself
 # 2. Comment pieces of codes that do not work
-# 3. Make my code easier to read
+# 3. Makes my code easier to read
 
 print("Look at what happens here. Is there any space?")
 print()
 print()
-print("There should be a couple blank lines here.")
+print("There should be a couple of blank lines here.")
 
 # Math
 print(3+5)

@@ -5,11 +5,29 @@ def challenge_1(firstname, lastname):
 print(challenge_1("Amandeep", "Judge"))
 
 
-def challange_2(number):
+def challenge_2(number):
     if number % 2 == 0:
         print('The number is even')
     else:
         print('The number is odd')
 
-// meaning and % meaning
 
+print(challenge_2(8))
+
+
+def challenge_4(number):
+    if number > 0:
+        print("The number is positive")
+    elif number == 0:
+        print("The number is 0")
+    else:
+        print("The number is negative")
+
+
+print(challenge_4(-9))
+
+def challenge_3(base, height):
+
+    return area
+
+// % meaning
