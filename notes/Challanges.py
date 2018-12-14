@@ -26,8 +26,3 @@ def challenge_4(number):
 
 print(challenge_4(-9))
 
-def challenge_3(base, height):
-
-    return area
-
-// % meaning
