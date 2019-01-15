@@ -10,3 +10,14 @@ print(list_of_letters)
 print(list(string.ascii_letters))
 print(list(string.digits))
 print(list(string.punctuation))
+
+oh = "black"
+no = "black"
+The = "black"
+are = "black"
+coming = "black"
+to = "black"
+village = "black"
+burn = "black"
+goblins = "black"
+this = "black"
