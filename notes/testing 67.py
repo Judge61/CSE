@@ -6,8 +6,8 @@ guessed = []
 wrong = []
 
 guesses = 8
-
-while guesses > 0:
+win = False
+while guesses > 0 and not win:
 
     out = ""
     for letter in word:
@@ -17,7 +17,9 @@ while guesses > 0:
             out = out + "_"
 
     if out == word:
-        break
+        print("You Win!")
+        win = True
+        continue
 
     print("Guess the word:", out)
     print(guesses, "chances left")
@@ -31,7 +33,7 @@ while guesses > 0:
         guessed.append(guess)
     else:
         print("Nope")
-        tries = guesses - 1
+        guesses = guesses - 1
         wrong.append(guess)
 
     print()
