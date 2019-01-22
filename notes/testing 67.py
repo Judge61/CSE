@@ -1,6 +1,6 @@
 from random import choice
 
-word = choice(["Oh", "no!", "The", "goblins", "are", "coming", "to", "burn", "this", "village!"])
+word = choice(["Oh", "no", "The", "goblins", "are", "coming", "to", "burn", "this", "village"])
 
 guessed = []
 wrong = []
@@ -14,7 +14,7 @@ while guesses > 0 and not win:
         if letter in guessed:
             out = out + letter
         else:
-            out = out + "_"
+            out = out + "*"
 
     if out == word:
         print("You Win!")
@@ -34,7 +34,7 @@ while guesses > 0 and not win:
     else:
         print("Nope")
         guesses = guesses - 1
-        wrong.append(guess)
+        wrong.append(guesses)
 
     print()
 
