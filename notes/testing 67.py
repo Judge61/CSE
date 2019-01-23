@@ -1,6 +1,6 @@
 from random import choice
 
-word = choice(["Oh", "no", "The", "goblins", "are", "coming", "to", "burn", "this", "village"])
+word = choice(["cool", "hello", "testing", "goblins", "are", "coming", "to", "burn", "this", "village"])
 
 guessed = []
 wrong = []
@@ -9,19 +9,19 @@ guesses = 8
 win = False
 while guesses > 0 and not win:
 
-    out = ""
+    random = ""
     for letter in word:
         if letter in guessed:
-            out = out + letter
+            random = random + letter
         else:
-            out = out + "*"
+            random = random + "*"
 
-    if out == word:
+    if random == word:
         print("You Win!")
         win = True
         continue
 
-    print("Guess the word:", out)
+    print("Guess the word:", random)
     print(guesses, "chances left")
 
     guess = input()
