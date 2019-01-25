@@ -1,10 +1,11 @@
 from random import choice
-
-word = choice(["cool", "hello", "testing", "goblins", "are", "coming", "to", "burn", "this", "village"])
+import string
+word = choice(["Cool!", "Hello!", "Testing!", "Goblins!", "Are!", "Coming!", "To!", "Burn!", "This!", "Village!",
+               "Supernatural!"])
 
 guessed = []
 wrong = []
-
+punctuation = list(string.punctuation)
 guesses = 8
 win = False
 while guesses > 0 and not win:
@@ -13,6 +14,9 @@ while guesses > 0 and not win:
     for letter in word:
         if letter in guessed:
             random = random + letter
+        elif letter in list(string.punctuation):
+            random = random + letter
+
         else:
             random = random + "*"
 
