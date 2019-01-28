@@ -1,7 +1,7 @@
 from random import choice
 import string
-word = choice(["Cool!", "Hello!", "Testing!", "Goblins!", "Are!", "Coming!", "To!", "Burn!", "This!", "Village!",
-               "Supernatural!"])
+word = choice(["Cool", "Hello", "Testing", "Goblins", "Are", "Coming", "To", "Burn", "This", "Village!",
+               "Supernatural"])
 
 guessed = []
 wrong = []
