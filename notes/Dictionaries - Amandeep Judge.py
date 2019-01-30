@@ -53,7 +53,7 @@ complex_dictionary = {
     "FL": {
         "NAME": "Florida",
         "POPULATION": 2130000,
-        "Cities": [
+        "CITIES": [
             "Miami",
             "Tampa",
             "Jacksonville",
@@ -63,7 +63,7 @@ complex_dictionary = {
     "AK": {
         "NAME": "Alaska",
         "POPULATION": 737000,
-        "Cities": [
+        "CITIES": [
             "Anchorage",
             "Fairbanks",
             "Juneau"
@@ -72,8 +72,8 @@ complex_dictionary = {
     },
     "GA": {
         "NAME": "Georgia",
-        "POPULATION": 10500000
-        "Cities": [
+        "POPULATION": 10500000,
+        "CITIES": [
             "Atlanta",
             "Savannah",
             "Augusta"
@@ -81,14 +81,23 @@ complex_dictionary = {
     }
 }
 print(complex_dictionary["AK"]["CITIES"][0])
+print(complex_dictionary.keys())
+print(complex_dictionary.items())
+print(nested_dictionary.items())
 
+for key, value in complex_dictionary.items():
+    print(key)
+    print(value)
+    print("-" * 20)
+#makes it split up
 
-
-
-
-
-
-
+print()
+for state, info in complex_dictionary.items():
+    for label, stats in info.items():
+        print(label)
+        print(stats)
+        print("-" * 20)
+    print("=" * 20)
 
 
 
