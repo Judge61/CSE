@@ -6,18 +6,17 @@ world_map = {
         'PATHS': {
             'NORTH': "PARKING_LOT"
 
-}
+        }
 
     },
     'The Lich': {
         'NAME': "The North Parking Lot",
-        'DESCRIPTION': "There are a couple of cars parked here",
+        'DESCRIPTION': "You have to fight the Lich for the sword. in this room. Get you A game on!",
         'PATHS': {
             'SOUTH': 'R19A'
         }
     }
 }
-
 
 # controller
 playing = True
@@ -30,21 +29,10 @@ while playing:
     if command.lower() in {'q', 'quit', 'exit'}:
         playing = False
     elif command.upper() in directions:
-       try:
-        room_name = current_node['PATHS'][command.upper()]
-        current_node = world_map[room_name]
-       except KeyError:
-        print("I can't go that way")
+        try:
+            room_name = current_node['PATHS'][command.upper()]
+            current_node = world_map[room_name]
+        except KeyError:
+            print("I can't go that way")
     else:
         print("Command not found")
-
-
-
-
-
-
-
-
-
-
-
