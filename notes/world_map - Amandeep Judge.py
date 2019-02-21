@@ -1,22 +1,24 @@
 world_map = {
-    'R19A': {
-        'NAME': "Mr. Wiebe's room",
+    'Room 1': {
+        'NAME': "Living Room",
         'DESCRIPTION': "This is the classroom you are in right now. "
                        "Now, there are two doors on the north wall.",
         'PATHS': {
-            'NORTH': "PARKING_LOT"
+            'East': "Kitchen"
 
 }
 
     },
-    'The Lich': {
-        'NAME': "The North Parking Lot",
+    'Room 2': {
+        'NAME': "The East of Kitchen",
         'DESCRIPTION': "There are a couple of cars parked here",
         'PATHS': {
-            'SOUTH': 'R19A'
+            'South': 'Collection of swords'
         }
     }
 }
+    'room 3'
+    'N'
 
 
 # controller
@@ -37,14 +39,3 @@ while playing:
         print("I can't go that way")
     else:
         print("Command not found")
-
-
-
-
-
-
-
-
-
-
-
