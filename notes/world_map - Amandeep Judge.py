@@ -1,24 +1,73 @@
 world_map = {
     'Room 1': {
-        'NAME': "Living Room",
-        'DESCRIPTION': "This is the classroom you are in right now. "
-                       "Now, there are two doors on the north wall.",
+        'NAME': "START",
+        'DESCRIPTION': "There is a strange blue house north to you."
+                       "Enter the blue house to began the game.",
         'PATHS': {
-            'East': "Kitchen"
-
-}
-
-    },
-    'Room 2': {
-        'NAME': "The East of Kitchen",
-        'DESCRIPTION': "There are a couple of cars parked here",
-        'PATHS': {
-            'South': 'Collection of swords'
+          'NORTH': "Blue_House"
         }
-    }
-}
-    'room 3'
-    'N'
+    },
+
+    'Room 2': {
+        'NAME': "Living_room",
+        'DESCRIPTION': "The entrance leads right to the living room."
+                       "There are cream colored sofas and a t.v. in front."
+                       "There is a red carpet and a black coffee table with some compartments."
+                       "To the east, there is a kitchen.",
+        'PATHS': {
+            'East': "Kitchen",
+            'West': "START"
+        }
+    },
+    
+    'Room 3': {
+        'NAME': "Kitchen",
+        'DESCRIPTION': "There are no windows but there is a pantry in front of you."
+                       "You may find some valuable things in the pantry.",
+        'PATHS': {
+            'West': "Living_room",
+            'UP': "Pantry"
+        }
+    },
+
+    'Room 4': {
+       'NAME': "Pantry",
+       'DESCRIPTION': "Upon opening the door, you found a bottle."
+                      "The bottle reads, 'Strength potion'."
+                      "This is perfect if your health is at risk." 
+                      "To the south and to the east, there are two rooms with the names: Loot_room1 or Loot_room2."
+                      "Which room will you go to?",
+       'PATHS': {
+
+            'West': 'Living_Room',
+            'South': "Loot_room2",
+            'East': "Loot_room1"
+
+        }
+    },
+
+
+    'Room 5': {
+       'NAME': "Loot_room2",
+       'DESCRIPTION': "You chose the wrong room!"
+                      "This is an empty room",
+       'PATHS': {
+           'East': "Kitchen"
+
+
+        }
+    },
+
+    'Room 6': {
+        'NAME': "Loot_room1",
+        'DESCRIPTION': "You chose the right room!"
+                       "In this room there are drawers." 
+                       "In the drawers there is gold."
+                       "To the "
+        'PATHS': {
+             'North' "I",
+         }
+    },
 
 
 # controller
