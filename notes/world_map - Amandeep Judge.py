@@ -64,10 +64,8 @@ world_map = {
                        "In this room there are drawers." 
                        "In the drawers there is gold."
                        "To the "
-        'PATHS': {
-             'North' "I",
-         }
-    },
+        'PATHS':{
+
 
 
 # controller
