@@ -1,8 +1,10 @@
 class Room(object):
-    def __init__(self, name, north=None, south=None):
+    def __init__(self, name, north=None, south=None, east=None):
         self.name = name
         self.north = north
         self.south = south
+        self.east = east
+        self.characters[]
 
 
 class Player (object):
@@ -28,8 +30,9 @@ class Player (object):
 
 playing = True
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN']
+current_node = world_map
 
-player = Player(R19A)
+player = Player(world_map)
 while playing:
     print(player.current_location.name)
     print(current_node['NAME'])
@@ -37,7 +40,7 @@ while playing:
     command = input(">_")
     if command.lower() in {'q', 'quit', 'exit'}:
         playing = False
-    elif command.upper() in directions:
+    elif command.lower() in directions:
        try:
         room_name = current_node['PATHS'][command.upper()]
         current_node = world_map[room_name]
