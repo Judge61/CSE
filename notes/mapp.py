@@ -26,7 +26,7 @@ world_map = {
                        "You may find some valuable things in the pantry.",
         'PATHS': {
             'WEST':  "room_2",
-            'North': "room_4"
+            'NORTH': "room_4"
         }
     },
 
@@ -39,9 +39,9 @@ world_map = {
                        "Which room will you go to?",
         'PATHS': {
 
-            'West': 'room_2',
-            'South': "room_5",
-            'East': "room_6"
+            'WEST': 'room_2',
+            'SOUTH': "room_5",
+            'EAST': "room_6"
 
         }
     },
@@ -51,7 +51,7 @@ world_map = {
         'DESCRIPTION': "You chose the wrong room!"
                        "This is an empty room.",
         'PATHS': {
-            'North': "room_3"
+            'NORTH': "room_3"
 
         }
     },
@@ -63,8 +63,8 @@ world_map = {
                        "In the drawers there is gold."
                        "To the south there is the owner’s room.",
         'PATHS': {
-            'South': "room_7",
-            'West': "room_3"
+            'SOUTH': "room_7",
+            'WEST': "room_3"
 
         }
     },
@@ -78,14 +78,14 @@ world_map = {
                        "But there is a door to the East that leads to the garden.",
 
         'PATHS': {
-            'North': "Loot_room1",
-            'South': "Dungeon",
-            'East': "Garden"
+            'NORTH': "room_6",
+            'SOUTH': "room_12",
+            'EAST': "room_8"
 
         }
     },
 
-    'Room 8': {
+    'room_8': {
         'NAME': "Garden",
         'DESCRIPTION':
             "There are rows and rows of flowers"
@@ -94,26 +94,26 @@ world_map = {
             "To the east, there is a science lab and to the south there is a mini house where the owner is waiting.",
 
         'PATHS': {
-            'West': "Owner’s_room",
-            'East': "Science_lab",
-            'South': "Owner's_mini_house_entry"
+            'WEST': "room_7",
+            'EAST': "room_9",
+            'SOUTH': "room_10"
 
         }
     },
 
-    'Room 9': {
+    'room_9': {
         'NAME': "Science_lab",
         'DESCRIPTION':
             "There are a lot of potions."
             "Looks like the owner or your master was a scientist!",
 
         'PATHS': {
-            'West': "Garden"
+            'WEST': "room_8"
 
         }
     },
 
-    'Room 10': {
+    'room_10': {
         'NAME': "Owner's_mini_house_entry",
         'DESCRIPTION': "You are led straight to the living room."
                        "All the other two rooms: Kitchen/Bathroom can not "
@@ -121,60 +121,61 @@ world_map = {
                        "To the east, there is a door to your master’s bedroom.",
 
         'PATHS': {
-            'East': "Bedroom",
-            'North': "Garden"
+            'EAST': "room_11",
+            'NORTH': "room_8"
 
         }
     },
 
-    'Room 11': {
+    'room_11': {
         'NAME': "Bedroom",
         'DESCRIPTION': "You have made it!",
                        "Let's see if you have all the things the master needs."
         'PATHS': {
-            'West': "Owner's_mini_house_entry",
+            'WEST': "room_10",
         }
     },
 
-    'Room 12': {
+    'room_12': {
         'NAME': "Dungeon",
         'DESCRIPTION': "There is a sword and a lightsaber.",
                        "To the south: Lich room."
 
         'PATHS': {
-            'South': "Lich_room"
+            'SOUTH': "room_13",
+            'NORTH': "room_7",
         }
     },
-    'Room 13': {
+    'room_13': {
         'NAME': "Lich_room",
         'DESCRIPTION': "Fight the Lich!!!!",
                        "Next room: South: Troll room"
         'PATHS': {
-            'South': "Troll_room",
-            'North': "Dungeon"
+            'SOUTH': "room_14",
+            'NORTH': "room_12"
         }
     },
-    'Room 14': {
+    'room_14': {
         'NAME': "Troll_room",
         'DESCRIPTION': "Fight the troll.",
                        "South: where the emerald is."
         'PATHS': {
-            'South': "The_Emerald",
-            'North': "Lich_room"
+            'SOUTH': "room_15",
+            'NORTH': "room_13"
         }
     },
-    'Room 15': {
+    'room_15': {
         'NAME': "The_Emerald ",
         'DESCRIPTION': "The emerald is east of you!"
                        "Take it and go to the garden to see where to go next!",
         'PATHS': {
-            'North': "Troll_room"
+            'NORTH': "room_14"
         }
     },
 }
 
 playing = True
-current_node = world_map['Room 1']
+current_node = world_map['room_1']
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN']
 while playing:
     print(current_node['NAME'])
