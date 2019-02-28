@@ -27,6 +27,16 @@ class Car(Vehicle):
         print("You turned off the car")
 
 
+class KeylessCar(Car):
+    def __init__(self):
+        super(KeylessCar, self).__init__(name, mileage)
+
+    def start_engine(self):
+        self.engine_status = True
+        print("You push the button and the car turns on")
+
+weibe_car = KeylessCar("Tesla", 25)
+
 class Impala(Car):
     def __init__(self):
         super(Impala, self).__init__('Impala', 25)
