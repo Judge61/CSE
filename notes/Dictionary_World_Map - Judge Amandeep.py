@@ -176,7 +176,7 @@ world_map = {
 
 playing = True
 current_node = world_map['room_1']
-directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN']
+directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN', 'north', 'south', 'east', 'west', 'up', 'down',]
 while playing:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
