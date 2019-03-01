@@ -22,7 +22,7 @@ world_map = {
 
     'room_3': {
         'NAME': "Kitchen",
-        'DESCRIPTION': "There are no windows but there is a pantry in front of you o north."
+        'DESCRIPTION': "There are no windows but there is a pantry in front of you north."
                        "You may find some valuable things in the pantry.",
         'PATHS': {
             'WEST':  "room_2",
@@ -33,7 +33,7 @@ world_map = {
     'room_4': {
         'NAME': "Pantry",
         'DESCRIPTION': "Upon opening the door, you found a bottle."
-                       "The bottle reads, 'Strength potion'."
+                       "The bottle reads, 'Strength potion."
                        "This is perfect if your health is at risk."
                        "To the south and to the east, there are two rooms with the names: Loot_room2 or Loot_room1."
                        "Which room will you go to?",
