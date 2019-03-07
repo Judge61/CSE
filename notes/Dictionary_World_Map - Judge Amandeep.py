@@ -2,7 +2,7 @@ world_map = {
     'room_1': {
         'NAME': "START",
         'DESCRIPTION': "There is a strange blue house north to you."
-                       "Enter the blue house to began the game.",
+                       " Enter the blue house to began the game.",
         'PATHS': {
             'NORTH': "room_2"
         }
@@ -11,9 +11,9 @@ world_map = {
     'room_2': {
         'NAME': "Blue_house",
         'DESCRIPTION': "The entrance leads right to the living room."
-                       "There are cream colored sofas and a t.v. in front."
-                       "There is a red carpet and a black coffee table with some compartments."
-                       "To the east, there is a kitchen.",
+                       " There are cream colored sofas and a t.v. in front."
+                       " There is a red carpet and a black coffee table with some compartments."
+                       " To the east, there is a kitchen.",
         'PATHS': {
             'EAST': "room_3",
             'WEST': "room_1"
@@ -22,8 +22,8 @@ world_map = {
 
     'room_3': {
         'NAME': "Kitchen",
-        'DESCRIPTION': "There are no windows but there is a pantry in front of you north."
-                       "You may find some valuable things in the pantry.",
+        'DESCRIPTION': "There are no windows but there is a pantry in front to the north."
+                       " You may find some valuable things in the pantry.",
         'PATHS': {
             'WEST':  "room_2",
             'NORTH': "room_4"
@@ -33,10 +33,10 @@ world_map = {
     'room_4': {
         'NAME': "Pantry",
         'DESCRIPTION': "Upon opening the door, you found a bottle."
-                       "The bottle reads, 'Strength potion."
-                       "This is perfect if your health is at risk."
-                       "To the south and to the east, there are two rooms with the names: Loot_room2 or Loot_room1."
-                       "Which room will you go to?",
+                       " The bottle reads, 'Strength potion'."
+                       " This is perfect if your health is at risk."
+                       " To the south and to the east, there are two rooms with the names: Loot_room2 or Loot_room1."
+                       " Which room will you go to?",
         'PATHS': {
 
             'WEST': 'room_2',
@@ -49,7 +49,7 @@ world_map = {
     'room_5': {
         'NAME': "Loot_room2",
         'DESCRIPTION': "You chose the wrong room!"
-                       "This is an empty room.",
+                       " This is an empty room.",
         'PATHS': {
             'NORTH': "room_3"
 
@@ -59,9 +59,9 @@ world_map = {
     'room_6': {
         'NAME': "Loot_room1",
         'DESCRIPTION': "You chose the right room!"
-                       "In this room there are drawers."
-                       "In the drawers there is gold."
-                       "To the south there is the owner’s room.",
+                       " In this room there are drawers."
+                       " In the drawers there is gold."
+                       " To the south there is the owner’s room.",
         'PATHS': {
             'SOUTH': "room_7",
             'WEST': "room_3"
@@ -72,10 +72,10 @@ world_map = {
     'room_7': {
         'NAME': "Owner’s_room",
         'DESCRIPTION': "The room is very dark but there is a lantern in the corner on the nightstand"
-                       "There is a door south."
-                       "The door either leads to the dungeon or an empty room."
-                       "The dungeon has some valuable stuff."
-                       "But there is a door to the East that leads to the garden.",
+                       " There is a door south."
+                       " The door either leads to the dungeon or an empty room."
+                       " The dungeon has some valuable stuff."
+                       " But there is a door to the East that leads to the garden.",
 
         'PATHS': {
             'NORTH': "room_6",
@@ -89,9 +89,9 @@ world_map = {
         'NAME': "Garden",
         'DESCRIPTION':
             "There are rows and rows of flowers"
-            "There is one special purple flower named: Supernova to your left."
-            "There are two buildings in front of you"
-            "To the east, there is a science lab and to the south there is a mini house where the owner is waiting.",
+            " There is one special purple flower named: Supernova to your left."
+            " There are two buildings in front of you"
+            " To the east, there is a science lab and to the south there is a mini house where the owner is waiting.",
 
         'PATHS': {
             'WEST': "room_7",
@@ -105,7 +105,7 @@ world_map = {
         'NAME': "Science_lab",
         'DESCRIPTION':
             "There are a lot of potions."
-            "Looks like the owner or your master was a scientist!",
+            " Looks like the owner or your master was a scientist!",
 
         'PATHS': {
             'WEST': "room_8"
@@ -176,7 +176,7 @@ world_map = {
 
 playing = True
 current_node = world_map['room_1']
-directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN', 'north', 'south', 'east', 'west', 'up', 'down',]
+directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN', 'north', 'south', 'east', 'west', 'up', 'down', ]
 while playing:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
