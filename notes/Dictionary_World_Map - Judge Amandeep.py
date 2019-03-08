@@ -165,7 +165,7 @@ world_map = {
         }
     },
     'room_15': {
-        'NAME': "The_Emerald ",
+        'NAME': "The_Emerald",
         'DESCRIPTION': "The emerald is east of you!"
                        "Take it and go to the garden to see where to go next!",
         'PATHS': {
