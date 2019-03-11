@@ -171,7 +171,7 @@ world_map = {
         'PATHS': {
             'NORTH': "room_14"
         }
-    },
+    }
 }
 
 playing = True
