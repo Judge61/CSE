@@ -46,3 +46,4 @@ troll = Character("Troll", 10000, canoe, troll_armor)
 lich.attack(troll)
 troll.attack(lich)
 
+bri_lich
