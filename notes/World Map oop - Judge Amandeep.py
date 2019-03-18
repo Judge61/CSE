@@ -8,6 +8,100 @@ class Room(object):
         self.description = description
 
 
+class Item(object):
+    def __init__(self, name):
+        self.name = name
+
+
+class Beaker(Item):
+    def __init__(self):
+        super(Beaker, self).__init__("Beaker")
+
+
+class Venomboomslang(Item):
+    def __init__(self):
+        super(Venomboomslang, self).__init__("Venom: Boomslang")
+
+
+class Pixiedust(Item):
+    def __init__(self):
+        super(Pixiedust, self).__init__("Pixie Dust")
+
+
+class Phoenixfeather(Item):
+    def __init__(self):
+        super(Phoenixfeather, self).__init__("Phoenix feather")
+
+
+class Dragonblood (Item):
+    def __init__(self):
+        super(Dragonblood, self).__init__("Dragon Blood")
+
+
+class Fourleafclover (Item):
+    def __init__(self):
+        super(Fourleafclover, self).__init__("Four Leaf Clover")
+
+
+class Diamonds (Item):
+    def __init__(self):
+        super(Diamonds, self).__init__("Diamonds")
+
+
+class Droppers (Item):
+    def __init__(self):
+        super(Droppers, self).__init__("Droppers")
+
+
+class Bookexperiments (Item):
+    def __init__(self):
+        super(Bookexperiments, self).__init__("Book: Experiments")
+
+
+class Serpentsblood (Item):
+    def __init__(self):
+        super(Serpentsblood, self).__init__("serpent's blood")
+
+
+class Cauldron (Item):
+    def __init__(self):
+        super(Cauldron, self).__init__("Cauldron")
+
+
+class Gloves (Item):
+    def __init__(self):
+        super(Gloves, self).__init__("gloves")
+
+
+class Flower (Item):
+    def __init__(self):
+        super(Flower, self).__init__("Flower: supernova")
+
+
+class Pan (Item):
+    def __init__(self):
+        super(Pan, self).__init__("Pan")
+
+
+class Pocketwatch (Item):
+    def __init__(self):
+        super(Pocketwatch, self).__init__("Pocket Watch")
+
+
+class Item(object):
+    def __init__(self, name):
+        self.name = name
+
+
+class Lantern(Item):
+    def __init__(self, name, lantern):
+        super(Lantern, self).__init__(name)
+        self.glow = lantern
+        print("Your lantern is flowing and you can finally see!")
+
+
+# You will not be able to use any of the items even if you try. Only the scientist can!
+
 class Player(object):
     def __init__(self, starting_location):
         self.current_location = starting_location
@@ -34,7 +128,7 @@ Room_1 = Room("Start", "There is a strange blue house north to you."
                        " Enter the blue house to began the game.", 'Room_2', None, None, None)
 
 Room_2 = Room("Blue House", "The entrance leads right to the living room."
-                            " There are cream colored sofas and a t.v. in front."
+                            " There is a cream colored sofa and a t.v. in front."
                             " There is a red carpet and a black coffee table with some compartments."
                             " To the east, there is a kitchen.", None, 'Room_3', 'Room_1', None)
 
@@ -52,7 +146,8 @@ Room_5 = Room("Loot_room2", "You chose the wrong room!"
 
 Room_6 = Room("Loot_room1", "You chose the right room!"
                             " In this room there are drawers."
-                            " In the drawers there is gold."
+                            " In the drawers there is a pocket watch."
+                            " On the back it reads: Brianna Lich "
                             " To the south there is the owner’s room.", None, None, 'Room_7', 'Room_4')
 
 Room_7 = Room("Owner's_room", "The room is very dark but there is a lantern in the corner on the nightstand"
@@ -87,9 +182,9 @@ Room_13 = Room("Lich_room", "Fight the Lich!!!!"
                             " Next room: South: Troll room", 'Room_12', None, 'Room_14', None)
 
 Room_14 = Room("Troll_room", "Fight the troll."
-                             " South: where the emerald is.", 'Room_13', None, 'Room_15', None)
+                             " South: where the serpent's blood is.", 'Room_13', None, 'Room_15', None)
 
-Room_15 = Room("The_Emerald", "The emerald/dog are east of you!"
+Room_15 = Room("The_Emerald", "The dragon's blood east of you!"
                               " Take it and go to the garden to see where to go next!", 'Room_14', None, None, None)
 
 player = Player(Room_1)
@@ -112,4 +207,3 @@ while playing:
             print("I can't go that way")
     else:
         print("Command not found")
-
