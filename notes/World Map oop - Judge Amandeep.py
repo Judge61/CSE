@@ -1,5 +1,6 @@
 class Room(object):
     def __init__(self, name, description, north=None, east=None, south=None, west=None):
+
         self.name = name
         self.north = north
         self.east = east
