@@ -98,7 +98,7 @@ class Lantern(Item):
     def __init__(self, name, lantern):
         super(Lantern, self).__init__(name)
         self.glow = lantern
-        print("Your lantern is flowing and you can finally see!")
+        print("Your lantern is glowing and you can finally see!")
 
 
 # You will not be able to use any of the items even if you try. Only the scientist can!
@@ -137,7 +137,7 @@ Room_3 = Room("Kitchen", "There are no windows but there is a pantry to your nor
                          " You may find some valuable things in the pantry.", 'Room_4', None, None, 'Room_2')
 
 Room_4 = Room("Pantry", "Upon opening the door, you found a bottle."
-                        " The bottle reads, 'Strength potion'."
+                        " There is a -------------."
                         " This is perfect if your health is at risk."
                         " To the south and to the east, there are two rooms with the names: Loot_room2 or Loot_room1."
                         " Which room will you go to?", None, 'Room_6', 'Room_5', 'Room_3')
@@ -185,7 +185,7 @@ Room_13 = Room("Lich_room", "Fight the Lich!!!!"
 Room_14 = Room("Troll_room", "Fight the troll."
                              " South: where the serpent's blood is.", 'Room_13', None, 'Room_15', None)
 
-Room_15 = Room("The_Emerald", "The dragon's blood east of you!"
+Room_15 = Room("The_Emerald", "The dragon's blood is east of you!"
                               " Take it and go to the garden to see where to go next!", 'Room_14', None, None, None)
 
 player = Player(Room_1)

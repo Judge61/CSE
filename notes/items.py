@@ -87,6 +87,11 @@ class Gloves (Item):
         super(Gloves, self).__init__("gloves")
 
 
+class Apple (Item):
+    def __init__(self):
+        super(Apple, self). __init__("Apple")
+
+
 class Flower (Item):
     def __init__(self):
         super(Flower, self).__init__("Flower: supernova")
@@ -103,9 +108,4 @@ class Clock (Item):
 
 
 
-
-beaker = Beaker()
-
-item_list = [Beaker]
-
-# You will not be able to use any of the items even if you try. Only the scientist can!
+#You will not be able to use any of the items even if you try. Only the scientist can!
