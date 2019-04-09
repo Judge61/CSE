@@ -1,10 +1,5 @@
-def fight(opponent):
-    player.attack(opponent)
-    opponent.attack(player)
-
-
 class Room(object):
-    def __init__(self, name, description, north=None, east=None, south=None, west=None, characters=None, item=None):
+    def __init__(self, name, description, north=None, east=None, south=None, west=None, characters=None, items=None):
         if characters is None:
             characters = []
         self.characters = characters
@@ -14,7 +9,7 @@ class Room(object):
         self.south = south
         self.west = west
         self.description = description
-        self.item = item
+        self.items = items
 
 
 class Item(object):
@@ -56,7 +51,6 @@ class Diamonds (Item):
     def __init__(self):
         super(Diamonds, self).__init__("Diamonds")
 
-
 class Droppers (Item):
     def __init__(self):
         super(Droppers, self).__init__("Droppers")
@@ -77,11 +71,6 @@ class Gloves (Item):
         super(Gloves, self).__init__("gloves")
 
 
-class Serpentblood (Item):
-    def __init__(self):
-        super(Serpentblood, self).__init__("Serpent's Blood")
-
-
 class Flower (Item):
     def __init__(self):
         super(Flower, self).__init__("Flower: supernova")
@@ -95,6 +84,18 @@ class Pan (Item):
 class Pocketwatch (Item):
     def __init__(self):
         super(Pocketwatch, self).__init__("Pocket Watch")
+
+
+class Item(object):
+    def __init__(self, name):
+        self.name = name
+
+
+class Lantern(Item):
+    def __init__(self, name, lantern):
+        super(Lantern, self).__init__(name)
+        self.glow = lantern
+        print("Your lantern is glowing and you can finally see!")
 
 
 class Item(object):
@@ -128,8 +129,6 @@ def character(object):
 
 lich1 = character("Bri the Lich")
 troll1 = character("Troll")
-book = Bookexperiments()
-
 
 # You will not be able to use any of the items even if you try. Only the scientist can!
 
@@ -170,14 +169,14 @@ class Player(object):
 
 
 Room_1 = Room("Start", "There is a strange blue house north to you."
-                       " Enter the blue house to began the game.", 'Room_2', None, None, None, None)
+                       " Enter the blue house to began the game.", 'Room_2', None, None, None, None, None)
 
 Room_2 = Room("Blue House", "The entrance leads right to the living room."
                             " There is a cream colored sofa and a t.v. in front."
                             " There is a red carpet and a black coffee table with some compartments."
                             " There is a book called: Book: Experiments."
                             " To the east, there is a kitchen.", None, 'Room_3', 'Room_1', None, None,
-              book)
+              [Bookexperiments()])
 
 Room_3 = Room("Kitchen", "There are no windows but there is a pantry to your north."
                          " You may find some valuable things in the pantry.", 'Room_4', None, None, 'Room_2')
@@ -205,7 +204,7 @@ Room_7 = Room("Owner's_room", "The room is very dark but there is a lantern in t
                               " The door either leads to the dungeon or an empty room."
                               " The dungeon has some valuable stuff."
                               " But there is a door to the East that leads to the garden.", 'Room_6', 'Room_8',
-                              'Room_12', None, None,)
+                              'Room_12', None, None, [Lantern])
 
 Room_8 = Room("Garden", "There are rows and rows of flowers."
                         " There is one special/violet flower named: Supernova."
@@ -241,7 +240,7 @@ Room_14 = Room("Troll_room", "Fight the troll."
 
 Room_15 = Room("Loot_room3", "The dragon's blood and the pixie dust is east of you!"
                              " Take it and go to the garden to see where to go next!", 'Room_14', None, None, None,
-               [Dragonblood(), Serpentblood(), Pixiedust()])
+               [Dragonblood(), Pixiedust()])
 
 player = Player(Room_1, Weapon)
 
@@ -249,10 +248,8 @@ playing = True
 directions = ['north', 'east', 'south', 'west']
 
 while playing:
-    if len(player.current_location.characters) > 0:
-        for char in player.current_location.characters:
-            fight(char)
-            player.current_location.characters.remove(char)
+    if player.current_location.characters is not None:
+        fight(player.current_location.characters)
 
     print(player.current_location.name)
     print(player.current_location.description)
