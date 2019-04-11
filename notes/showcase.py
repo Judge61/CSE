@@ -4,7 +4,7 @@ def fight(opponent):
 
 
 class Room(object):
-    def __init__(self, name, description, north=None, east=None, south=None, west=None, characters=None, item=None):
+    def __init__(self, name, description, north=None, east=None, south=None, west=None, characters=None, _item=None):
         if characters is None:
             characters = []
         self.characters = characters
@@ -14,7 +14,7 @@ class Room(object):
         self.south = south
         self.west = west
         self.description = description
-        self.item = item
+        self.item = _item
 
 
 class Item(object):
@@ -246,7 +246,6 @@ player = Player(Room_1, Weapon)
 
 playing = True
 directions = ['north', 'east', 'south', 'west']
-short_directions = ['n', 'e', 's', 'w']
 
 while playing:
     if len(player.current_location.characters) > 0:
@@ -272,11 +271,5 @@ while playing:
             player.move(room_name)
         except KeyError:
             print("I can't go that way")
-    if command.lower() in short directions:
-        pos = short_directions.index(command.lower())
-        command = directions[pos
-
-
-        ]
     else:
         print("Command not found")

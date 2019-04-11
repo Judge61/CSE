@@ -269,6 +269,9 @@ while playing:
         try:
             room_name = player.find_next_room(command)
             player.move(room_name)
+        if command.lower() in short directions:
+                pos = short_directions.index(command.lower())
+                command = directions[pos
         except KeyError:
             print("I can't go that way")
     else:
