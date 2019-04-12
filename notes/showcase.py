@@ -128,7 +128,7 @@ def character(object):
 
 lich1 = character("Bri the Lich")
 troll1 = character("Troll")
-book = Bookexperiments()
+book_experiments = Bookexperiments()
 
 
 # You will not be able to use any of the items even if you try. Only the scientist can!
@@ -176,7 +176,7 @@ Room_2 = Room("Blue House", "The entrance leads right to the living room."
                             " There is a red carpet and a black coffee table with some compartments."
                             " There is a book."
                             " To the east, there is a kitchen.", None, 'Room_3', 'Room_1', None, None,
-              [book])
+              book_experiments)
 
 Room_3 = Room("Kitchen", "There are no windows but there is a pantry to your north."
                          " You may find some valuable things in the pantry.", 'Room_4', None, None, 'Room_2')
@@ -246,7 +246,7 @@ player = Player(Room_1, Weapon)
 
 playing = True
 directions = ['north', 'east', 'south', 'west']
-
+short_directions = ['n', 'e', 's', 'w']
 while playing:
     if len(player.current_location.characters) > 0:
         for char in player.current_location.characters:
@@ -259,8 +259,13 @@ while playing:
         for item in player.current_location.item:
             print("There is a %s here" % item.name.lower())
     command = input(">_")
+
+    if command.lower() in short_directions:
+        pos = short_directions.index(command.lower())
+        command = directions[pos]
+    
     if player.current_location.item is not None and command.lower() in ['pick up', 'grab']:
-        player.inventory.append(player.current_location.item.name)
+        player.inventory.append(player.current_location.item)
         print("Your player picked up the %s" % player.current_location.item.name.lower())
         player.current_location.item = None
     if command.lower() in {'q', 'quit', 'exit'}:
