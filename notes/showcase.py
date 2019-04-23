@@ -62,9 +62,9 @@ class Droppers (Item):
         super(Droppers, self).__init__("Droppers")
 
 
-class Bookexperiments (Item):
+class Blackmagic (Item):
     def __init__(self):
-        super(Bookexperiments, self).__init__("Book: Experiments")
+        super(Blackmagic, self).__init__("Book: Black Magic")
 
 
 class Cauldron (Item):
@@ -128,9 +128,7 @@ def character(object):
 
 lich1 = character("Bri the Lich")
 troll1 = character("Troll")
-book_experiments = Bookexperiments()
-
-
+book = Blackmagic()
 # You will not be able to use any of the items even if you try. Only the scientist can!
 
 
@@ -174,9 +172,8 @@ Room_1 = Room("Start", "There is a strange blue house north to you."
 
 Room_2 = Room("Blue House", "The entrance leads right to the living room."
                             " There is a red carpet and a black coffee table with some compartments."
-                            " There is a book."
                             " To the east, there is a kitchen.", None, 'Room_3', 'Room_1', None, None,
-              book_experiments)
+              [Blackmagic()])
 
 Room_3 = Room("Kitchen", "There are no windows but there is a pantry to your north."
                          " You may find some valuable things in the pantry.", 'Room_4', None, None, 'Room_2')
@@ -257,7 +254,7 @@ while playing:
     print(player.current_location.description)
     if player.current_location.item is not None:
         for item in player.current_location.item:
-            print("There is a %s here" % item.name.lower())
+            print("There is a item %s" % item.name.lower())
     command = input(">_")
 
     if command.lower() in short_directions:
