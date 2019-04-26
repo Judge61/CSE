@@ -1,10 +1,10 @@
-def fight(opponent):
-    player.attack(opponent)
-    opponent.attack(player)
+# def fight(opponent):
+#     player.attack(opponent)
+#     opponent.attack(player)
 
 
 class Room(object):
-    def __init__(self, name, description, north=None, east=None, south=None, west=None, characters=None, item=None):
+    def __init__(self, name, description, north=None, east=None, south=None, west=None, characters=None, _item=None):
         if characters is None:
             characters = []
         self.characters = characters
@@ -14,7 +14,7 @@ class Room(object):
         self.south = south
         self.west = west
         self.description = description
-        self.item = item
+        self.item = _item
 
 
 class Item(object):
@@ -42,57 +42,57 @@ class Phoenixfeather(Item):
         super(Phoenixfeather, self).__init__("Phoenix feather")
 
 
-class Dragonblood (Item):
+class Dragonblood(Item):
     def __init__(self):
         super(Dragonblood, self).__init__("Dragon Blood")
 
 
-class Fourleafclover (Item):
+class Fourleafclover(Item):
     def __init__(self):
         super(Fourleafclover, self).__init__("Four Leaf Clover")
 
 
-class Diamonds (Item):
+class Diamonds(Item):
     def __init__(self):
         super(Diamonds, self).__init__("Diamonds")
 
 
-class Droppers (Item):
+class Droppers(Item):
     def __init__(self):
         super(Droppers, self).__init__("Droppers")
 
 
-class Bookexperiments (Item):
+class Blackmagic(Item):
     def __init__(self):
-        super(Bookexperiments, self).__init__("Book: Experiments")
+        super(Blackmagic, self).__init__("Book: Black Magic")
 
 
-class Cauldron (Item):
+class Cauldron(Item):
     def __init__(self):
         super(Cauldron, self).__init__("Cauldron")
 
 
-class Gloves (Item):
+class Gloves(Item):
     def __init__(self):
         super(Gloves, self).__init__("gloves")
 
 
-class Serpentblood (Item):
+class Serpentblood(Item):
     def __init__(self):
         super(Serpentblood, self).__init__("Serpent's Blood")
 
 
-class Flower (Item):
+class Flower(Item):
     def __init__(self):
         super(Flower, self).__init__("Flower: supernova")
 
 
-class Pan (Item):
+class Pan(Item):
     def __init__(self):
         super(Pan, self).__init__("Pan")
 
 
-class Pocketwatch (Item):
+class Pocketwatch(Item):
     def __init__(self):
         super(Pocketwatch, self).__init__("Pocket Watch")
 
@@ -109,26 +109,29 @@ class Weapon(Item):
         print("Nice attack")
 
 
-def character(object):
-    def __init__(self, name, weapon):
-        self.name = name
-        self.health = 150
-        self.weapon = weapon
+#
+# class character(object):
+#     def __init__(self, name, weapon):
+#         self.name = name
+#         self.health = 150
+#         self.weapon = weapon
+#
+#     def take_damage(self, damage):
+#         self.health -= damage
+#         if self.health < 0:
+#             self.health = 0
+#         print("%s has %d health left" % (self.name, self.health))
+#
+#     def attack(self, target):
+#         print("%s attacks %s for %d damage" % (self.name, target.name, self.weapon.damage))
+#         target.take_damage(self.weapon.damage)
+#
+#
+# lich1 = character("Bri the Lich")
+# troll1 = character("Troll")
 
-    def take_damage(self, damage):
-        self.health -= damage
-        if self.health < 0:
-            self.health = 0
-        print("%s has %d health left" % (self.name, self.health))
 
-    def attack(self, target):
-        print("%s attacks %s for %d damage" % (self.name, target.name, self.weapon.damage))
-        target.take_damage(self.weapon.damage)
-
-
-lich1 = character("Bri the Lich")
-troll1 = character("Troll")
-book = Bookexperiments()
+book = Blackmagic()
 
 
 # You will not be able to use any of the items even if you try. Only the scientist can!
@@ -173,11 +176,9 @@ Room_1 = Room("Start", "There is a strange blue house north to you."
                        " Enter the blue house to began the game.", 'Room_2', None, None, None, None)
 
 Room_2 = Room("Blue House", "The entrance leads right to the living room."
-                            " There is a cream colored sofa and a t.v. in front."
                             " There is a red carpet and a black coffee table with some compartments."
-                            " There is a book called: Book: Experiments."
                             " To the east, there is a kitchen.", None, 'Room_3', 'Room_1', None, None,
-              book)
+              [Blackmagic()])
 
 Room_3 = Room("Kitchen", "There are no windows but there is a pantry to your north."
                          " You may find some valuable things in the pantry.", 'Room_4', None, None, 'Room_2')
@@ -205,7 +206,7 @@ Room_7 = Room("Owner's_room", "The room is very dark but there is a lantern in t
                               " The door either leads to the dungeon or an empty room."
                               " The dungeon has some valuable stuff."
                               " But there is a door to the East that leads to the garden.", 'Room_6', 'Room_8',
-                              'Room_12', None, None,)
+              'Room_12', None, None, )
 
 Room_8 = Room("Garden", "There are rows and rows of flowers."
                         " There is one special/violet flower named: Supernova."
@@ -217,15 +218,15 @@ Room_8 = Room("Garden", "There are rows and rows of flowers."
 
                                                                                                          )])
 
-Room_9 = Room("Science_lab",  "There is a beaker, a pan, gloves, a cauldren, and droppers."
-                              " Looks like the owner or your master was a scientist!", None, None, None, 'Room_8',
+Room_9 = Room("Science_lab", "There is a beaker, a pan, gloves, a cauldren, and droppers."
+                             " Looks like the owner or your master was a scientist!", None, None, None, 'Room_8',
               [Droppers(), Cauldron(), Pan(), Gloves()])
 
 Room_10 = Room("Owner's_mini_house_entry", "You are led straight to the living room."
                                            " All the other two rooms: Kitchen/Bathroom can not"
                                            " be used without permission of master or owner."
                                            " To the east, there is a door to your master’s bedroom.", 'Room_8',
-                                           'Room_11', None, None)
+               'Room_11', None, None)
 
 Room_11 = Room("Bedroom", "You have made it!"
                           " Let's see if you have all the things the master needs.", None, None, None, 'Room_10')
@@ -247,7 +248,7 @@ player = Player(Room_1, Weapon)
 
 playing = True
 directions = ['north', 'east', 'south', 'west']
-
+short_directions = ['n', 'e', 's', 'w']
 while playing:
     if len(player.current_location.characters) > 0:
         for char in player.current_location.characters:
@@ -257,22 +258,35 @@ while playing:
     print(player.current_location.name)
     print(player.current_location.description)
     if player.current_location.item is not None:
-        print("There is a %s here" % player.current_location.item.name.lower())
+        for item in player.current_location.item:
+            print("There is an item: %s" % item.name.lower())
     command = input(">_")
+
+    if command.lower() in short_directions:
+        pos = short_directions.index(command.lower())
+        command = directions[pos]
+
     if player.current_location.item is not None and command.lower() in ['pick up', 'grab']:
-        player.inventory.append(player.current_location.item.name)
-        print("Your player picked up the %s" % player.current_location.item.name.lower())
+        for item in player.current_location.item:
+            player.inventory.append(item)
+            print("Your player picked up the %s" % item.name.lower())
         player.current_location.item = None
-    if command.lower() in {'q', 'quit', 'exit'}:
+    elif command.lower() in {'q', 'quit', 'exit'}:
         playing = False
     elif command.lower() in directions:
         try:
             room_name = player.find_next_room(command)
             player.move(room_name)
-        if command.lower() in short directions:
-                pos = short_directions.index(command.lower())
-                command = directions[pos
         except KeyError:
             print("I can't go that way")
     else:
         print("Command not found")
+    if player.current_location == Room_15:
+        print("You collected the following items:")
+        for item in player.inventory:
+            print(item.name)
+        print()
+
+        if len(player.inventory) >= 15:
+            print("CONGRATS!!!!!!!!")
+            quit(0)

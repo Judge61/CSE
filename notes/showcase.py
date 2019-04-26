@@ -1,6 +1,6 @@
-def fight(opponent):
-    player.attack(opponent)
-    opponent.attack(player)
+# def fight(opponent):
+#     player.attack(opponent)
+#     opponent.attack(player)
 
 
 class Room(object):
@@ -108,26 +108,28 @@ class Weapon(Item):
         self.damage = damage
         print("Nice attack")
 
+#
+# class character(object):
+#     def __init__(self, name, weapon):
+#         self.name = name
+#         self.health = 150
+#         self.weapon = weapon
+#
+#     def take_damage(self, damage):
+#         self.health -= damage
+#         if self.health < 0:
+#             self.health = 0
+#         print("%s has %d health left" % (self.name, self.health))
+#
+#     def attack(self, target):
+#         print("%s attacks %s for %d damage" % (self.name, target.name, self.weapon.damage))
+#         target.take_damage(self.weapon.damage)
+#
+#
+# lich1 = character("Bri the Lich")
+# troll1 = character("Troll")
 
-def character(object):
-    def __init__(self, name, weapon):
-        self.name = name
-        self.health = 150
-        self.weapon = weapon
 
-    def take_damage(self, damage):
-        self.health -= damage
-        if self.health < 0:
-            self.health = 0
-        print("%s has %d health left" % (self.name, self.health))
-
-    def attack(self, target):
-        print("%s attacks %s for %d damage" % (self.name, target.name, self.weapon.damage))
-        target.take_damage(self.weapon.damage)
-
-
-lich1 = character("Bri the Lich")
-troll1 = character("Troll")
 book = Blackmagic()
 # You will not be able to use any of the items even if you try. Only the scientist can!
 
@@ -262,10 +264,11 @@ while playing:
         command = directions[pos]
     
     if player.current_location.item is not None and command.lower() in ['pick up', 'grab']:
-        player.inventory.append(player.current_location.item)
-        print("Your player picked up the %s" % player.current_location.item.name.lower())
+        for item in player.current_location.item:
+            player.inventory.append(item)
+            print("Your player picked up the %s" % item.name.lower())
         player.current_location.item = None
-    if command.lower() in {'q', 'quit', 'exit'}:
+    elif command.lower() in {'q', 'quit', 'exit'}:
         playing = False
     elif command.lower() in directions:
         try:
@@ -275,3 +278,12 @@ while playing:
             print("I can't go that way")
     else:
         print("Command not found")
+    if player.current_location == Room_15:
+        print("You collected the following items:")
+        for item in player.inventory:
+            print(item.name)
+        print()
+
+        if len(player.inventory) >= 15:
+            print("CONGRATS!!!!!!!!")
+            quit(0)
