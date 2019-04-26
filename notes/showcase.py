@@ -254,7 +254,7 @@ while playing:
     print(player.current_location.description)
     if player.current_location.item is not None:
         for item in player.current_location.item:
-            print("There is a item %s" % item.name.lower())
+            print("There is an item: %s" % item.name.lower())
     command = input(">_")
 
     if command.lower() in short_directions:
