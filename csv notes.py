@@ -62,6 +62,7 @@ def all_16_digits(num: str):
     return False
 
 
+
 def validate(num: str):
     first_num = int(num[0])
     if first_num % 3 == 0:
@@ -83,8 +84,6 @@ def divisible_by_2(num: str):
     return False
 
 
-
-
 with open("Book1.csv", 'r') as old_csv:
     with open("MyNewFile.csv", 'w', newline='') as new_csv:
         print("Writing file... ")
@@ -99,3 +98,5 @@ with open("Book1.csv", 'r') as old_csv:
                 writer.writerow(row)
 
 print("Done")
+
+

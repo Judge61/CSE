@@ -108,8 +108,6 @@ class Weapon(Item):
         self.damage = damage
         print("Nice attack")
 
-
-#
 # class character(object):
 #     def __init__(self, name, weapon):
 #         self.name = name
@@ -172,8 +170,8 @@ class Player(object):
         target.take_damage(self.weapon.damage)
 
 
-Room_1 = Room("Start", "There is a strange blue house north to you."
-                       " Enter the blue house to began the game.", 'Room_2', None, None, None, None)
+Room_1 = Room("Start", "There is a strange house north to you."
+                       " Enter the house to began the game.", 'Room_2', None, None, None, None)
 
 Room_2 = Room("Blue House", "The entrance leads right to the living room."
                             " There is a red carpet and a black coffee table with some compartments."
@@ -235,7 +233,7 @@ Room_12 = Room("Dungeon", "There is a sword."
                           " To the south: Lich room.", 'Room_7', None, 'Room_13', None)
 
 Room_13 = Room("Lich_room", "Fight the Lich!!!!"
-                            " Next room: South: Troll room", 'Room_12', None, 'Room_14', None, lich1)
+                            " Next room: South: Troll room", 'Room_12', None, 'Room_14', None)
 
 Room_14 = Room("Troll_room", "Fight the troll."
                              " South: where the dragon's blood is.", 'Room_13', None, 'Room_15', None)
@@ -250,11 +248,6 @@ playing = True
 directions = ['north', 'east', 'south', 'west']
 short_directions = ['n', 'e', 's', 'w']
 while playing:
-    if len(player.current_location.characters) > 0:
-        for char in player.current_location.characters:
-            fight(char)
-            player.current_location.characters.remove(char)
-
     print(player.current_location.name)
     print(player.current_location.description)
     if player.current_location.item is not None:
