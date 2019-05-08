@@ -18,9 +18,11 @@
     <SUITE FILE_PATH="coverage/CSE$testing_67.coverage" NAME="testing 67 Coverage Results" MODIFIED="1548697119849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$WORLD_MAP_OOP.coverage" NAME="WORLD MAP OOP Coverage Results" MODIFIED="1551894177621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$amandeep_judge.coverage" NAME="amandeep judge Coverage Results" MODIFIED="1548781973877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$validator___Amandeep__1_.coverage" NAME="validator - Amandeep (1) Coverage Results" MODIFIED="1557334051851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$validator.coverage" NAME="validator Coverage Results" MODIFIED="1557160947135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$Amandeep_Judge___Hangman.coverage" NAME="Amandeep Judge - Hangman Coverage Results" MODIFIED="1547573637054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$testing_12.coverage" NAME="testing 12 Coverage Results" MODIFIED="1556639301925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$validator___Amandeep.coverage" NAME="validator - Amandeep Coverage Results" MODIFIED="1557332949712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$world_map___Amandeep_Judge.coverage" NAME="world_map - Amandeep Judge Coverage Results" MODIFIED="1549474403972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$items___Amandeep_Judge.coverage" NAME="items - Amandeep Judge Coverage Results" MODIFIED="1553704467526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$World_Map_OOP___Judge_Amandeep.coverage" NAME="World Map OOP - Judge Amandeep Coverage Results" MODIFIED="1556036506514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
@@ -34,6 +36,7 @@
     <SUITE FILE_PATH="coverage/CSE$Dictionary_World_Map___Judge_Amandeep.coverage" NAME="Dictionary_World_Map - Judge Amandeep Coverage Results" MODIFIED="1551893317609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1551375320878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$Items___Judge_Amandeep.coverage" NAME="Items = Judge Amandeep Coverage Results" MODIFIED="1552494946920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$profits.coverage" NAME="profits Coverage Results" MODIFIED="1557332777990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$showcase.coverage" NAME="showcase Coverage Results" MODIFIED="1556315559000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$mapp.coverage" NAME="mapp Coverage Results" MODIFIED="1551303072848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$test.coverage" NAME="test Coverage Results" MODIFIED="1550770262123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
@@ -63,24 +66,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csv notes - amandeep.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csv notes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" column="20" selection-start-line="86" selection-end-line="88" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/World Map oop - Judge Amandeep.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -89,14 +74,81 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sales_Records.csv">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="441">
+              <caret line="10250" column="36" selection-start-line="10250" selection-start-column="36" selection-end-line="10250" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/validator - Amandeep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Book1.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="403941" column="16" lean-forward="true" selection-start-line="403941" selection-start-column="16" selection-end-line="403941" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InvalidNumbers.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170807">
+              <caret line="30096" lean-forward="true" selection-start-line="30096" selection-end-line="30096" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyNewFile.csv">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profits.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/csv notes - amandeep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv notes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notes/Dictionaries - Amandeep Judge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1717">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -120,7 +172,6 @@
         <option value="$PROJECT_DIR$/notes/testing 67.py" />
         <option value="$PROJECT_DIR$/notes/amandeep judge.py" />
         <option value="$PROJECT_DIR$/notes/Dictionaries.py" />
-        <option value="$PROJECT_DIR$/notes/Dictionaries - Amandeep Judge.py" />
         <option value="$PROJECT_DIR$/notes/89.py" />
         <option value="$PROJECT_DIR$/notes/small.py" />
         <option value="$PROJECT_DIR$/notes/Map.py" />
@@ -149,17 +200,20 @@
         <option value="$PROJECT_DIR$/notes/World Map OOP - Judge Amandeep.py" />
         <option value="$PROJECT_DIR$/csv.notes.py" />
         <option value="$PROJECT_DIR$/notes/showcase.py" />
-        <option value="$PROJECT_DIR$/csv notes - amandeep.py" />
         <option value="$PROJECT_DIR$/notes/testing 12.py" />
         <option value="$PROJECT_DIR$/csv notes.py" />
         <option value="$PROJECT_DIR$/notes/World Map oop - Judge Amandeep.py" />
         <option value="$PROJECT_DIR$/notes/validator.py" />
         <option value="$PROJECT_DIR$/validator.py" />
+        <option value="$PROJECT_DIR$/csv notes - amandeep.py" />
+        <option value="$PROJECT_DIR$/notes/Dictionaries - Amandeep Judge.py" />
         <option value="$PROJECT_DIR$/profits.py" />
+        <option value="$PROJECT_DIR$/notes/validator - Amandeep.py" />
+        <option value="$PROJECT_DIR$/validator - Amandeep.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -181,6 +235,12 @@
               <item name="CSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE" type="462c0819:PsiDirectoryNode" />
               <item name="notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,30 +278,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.validator (1)">
-    <configuration name="World Map oop - Judge Amandeep" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CSE" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/World Map oop - Judge Amandeep.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="csv notes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.validator - Amandeep (1)">
+    <configuration name="profits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,7 +292,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv notes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +301,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testing 12" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="validator - Amandeep (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CSE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validator - Amandeep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="validator - Amandeep" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,7 +336,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/testing 12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/validator - Amandeep.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,19 +390,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.csv notes" />
-      <item itemvalue="Python.World Map oop - Judge Amandeep" />
       <item itemvalue="Python.validator" />
-      <item itemvalue="Python.testing 12" />
       <item itemvalue="Python.validator (1)" />
+      <item itemvalue="Python.profits" />
+      <item itemvalue="Python.validator - Amandeep" />
+      <item itemvalue="Python.validator - Amandeep (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.validator - Amandeep (1)" />
+        <item itemvalue="Python.validator - Amandeep" />
+        <item itemvalue="Python.profits" />
         <item itemvalue="Python.validator (1)" />
         <item itemvalue="Python.validator" />
-        <item itemvalue="Python.World Map oop - Judge Amandeep" />
-        <item itemvalue="Python.csv notes" />
-        <item itemvalue="Python.testing 12" />
       </list>
     </recent_temporary>
   </component>
@@ -363,12 +423,13 @@
       <workItem from="1556808576125" duration="5905000" />
       <workItem from="1556902349551" duration="2785000" />
       <workItem from="1557157933483" duration="2947000" />
-      <workItem from="1557244288617" duration="1470000" />
+      <workItem from="1557244288617" duration="2277000" />
+      <workItem from="1557330636670" duration="3208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27131000" />
+    <option name="totallyTimeSpent" value="31146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,10 +437,10 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.2647504" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.32980332" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25266525" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3261105" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3261105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,18 +485,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notes/.idea/notes.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Amandeep Judge-Mad lib.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -445,13 +494,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Judge Amandeep - Hangman.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Dictionaries - Amandeep Judge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Map.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -574,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Book1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes/showcase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -629,20 +664,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/validator.py" />
     <entry file="file://$PROJECT_DIR$/validator.py" />
-    <entry file="file://$PROJECT_DIR$/csv notes - amandeep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="20" selection-start-line="86" selection-end-line="88" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes/testing 12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -677,6 +698,16 @@
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Sales Records (1).csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Dictionaries - Amandeep Judge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notes/World Map oop - Judge Amandeep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -684,11 +715,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profits.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/csv notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/validator - Amandeep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyNewFile.csv">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sales_Records.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="441">
+          <caret line="10250" column="36" selection-start-line="10250" selection-start-column="36" selection-end-line="10250" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv notes - amandeep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InvalidNumbers.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170807">
+          <caret line="30096" lean-forward="true" selection-start-line="30096" selection-end-line="30096" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validator - Amandeep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="403941" column="16" lean-forward="true" selection-start-line="403941" selection-start-column="16" selection-end-line="403941" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

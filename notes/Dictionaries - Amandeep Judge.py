@@ -89,7 +89,7 @@ for key, value in complex_dictionary.items():
     print(key)
     print(value)
     print("-" * 20)
-#makes it split up
+# Makes it split up
 
 print()
 for state, info in complex_dictionary.items():
