@@ -32,4 +32,15 @@ with open("Book1.csv") as old_csv:
 
 print("OK")
 
+import csv
 
+with open("Sales_Records.csv", 'r') as old_csv:
+    reader = csv.reader(old_csv)
+    total = 0
+    for row in reader:
+        old_number = row[13]
+        item_type = row[2]
+        if item_type == "Fruits":
+
+    # print(old_number)
+    print(total)
