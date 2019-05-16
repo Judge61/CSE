@@ -108,6 +108,11 @@ class Weapon(Item):
         self.damage = damage
         print("Nice attack")
 
+# Lighter Than a Feather. I'm lighter than a feather but even the world's strongest man can't hold me for more
+# than a few minutes. What am I? Breath. Air is light, but even Stig Severinsen, the world record holder can only hold
+# his breath for 22 minutes.
+
+
 # class character(object):
 #     def __init__(self, name, weapon):
 #         self.name = name
@@ -274,7 +279,7 @@ while playing:
             print("I can't go that way")
     else:
         print("Command not found")
-    if player.current_location == Room_15:
+    if player.current_location == Room_11:
         print("You collected the following items:")
         for item in player.inventory:
             print(item.name)
