@@ -233,7 +233,7 @@ Room_10 = Room("Owner's_mini_house_entry", "You are led straight to the living r
 Room_11 = Room("Bedroom", "You have made it!"
                           " Let's see if you have all the things the master needs.", None, None, None, 'Room_10')
 
-Room_12 = Room("Dungeon", "There is a sword."
+Room_12 = Room("Dungeon", " You have to answer a riddle to get through"
                           " To the south: Lich room.", 'Room_7', None, 'Room_13', None)
 
 Room_13 = Room("Lich_room", "Fight the Lich!!!!"
@@ -287,7 +287,15 @@ while playing:
         if len(player.inventory) >= 15:
             print("CONGRATS!!!!!!!!")
             quit(0)
-
+    if player.current_location == Room_12:
+        guess = 5
+        while True:
+            print("David's father has three sons : Snap, Crackle and ----- ?")
+            print()
+            answer = input("Type your guess as many times as you want or quit.")
+            if answer == "david":
+                print("You are correct")
+                break
 
 
 
