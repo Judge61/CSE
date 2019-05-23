@@ -126,7 +126,7 @@ class Weapon(Item):
 #         target.take_damage(self.weapon.damage)
 #
 #
-# lich1 = character("Bri the Lich")
+# lich1 = character("Lich")
 # troll1 = character("Troll")
 
 
@@ -171,9 +171,8 @@ class Player(object):
         target.take_damage(self.weapon.damage)
 
 
-Room_1 = Room("Entrance", " The commands to move: n/north = to go north s/south = to go south w/west = "
-                          "to go west e/east = to go east "
-                          " To end game: q quit exit to grab items: pick up/grab "
+Room_1 = Room("Entrance", " The commands to move: n/north = to go north s/south = to go south w/west = to go west "
+                          "e/east = to go east To end game: q quit exit to grab items: pick up/grab/take "
                           " There is a strange house north to you."
                           " Go north to enter the house to began the game.", 'Room_2', None, None, None, None)
 
@@ -199,7 +198,6 @@ Room_6 = Room("Loot_room1", "You chose the right room!"
                             " In this room there are many drawers."
                             " In the drawers there is a pocket watch."
                             " There is a huge diamond."
-                            " On the back it reads: Brianna Lich "
                             " To the south there is the owner’s room.", None, None, 'Room_7', 'Room_4', None,
               [Diamonds(), Pocketwatch()])
 
@@ -236,10 +234,10 @@ Room_11 = Room("Bedroom", "You have made it!"
 Room_12 = Room("Dungeon", " You have to answer a riddle to get through"
                           " To the south: Lich room.", 'Room_7', None, 'Room_13', None)
 
-Room_13 = Room("Lich_room", "Fight the Lich!!!!"
+Room_13 = Room("Lich_room", "To get through the lich, you have to answer the riddle"
                             " Next room: South: Troll room", 'Room_12', None, 'Room_14', None)
 
-Room_14 = Room("Troll_room", "Fight the troll."
+Room_14 = Room("Troll_room", "To get through the troll, you have to answer the riddle"
                              " South: where the dragon's blood is.", 'Room_13', None, 'Room_15', None)
 
 Room_15 = Room("Loot_room3", "The dragon's blood and the pixie dust is east of you!"
@@ -254,20 +252,56 @@ short_directions = ['n', 'e', 's', 'w']
 while playing:
     print(player.current_location.name)
     print(player.current_location.description)
+    if player.current_location == Room_12:
+        guess = 0
+        while True:
+            print("David's father has three sons : Snap, Crackle and ----- ?")
+            print()
+            answer = input("Type your guess as many times as you want or quit.")
+            if answer.lower() == "david":
+                print("You are correct")
+                break
+            elif answer.lower() == "quit":
+                quit(0)
+    if player.current_location == Room_13:
+        guess = 0
+        while True:
+            print("I'm lighter than a feather but even the world's strongest man can't hold me for more than"
+                  "a few minutes. What am I?")
+            print()
+            answer = input("Type your guess as many times as you want or quit.")
+            if answer.lower() == "breath":
+                print("You are correct")
+                break
+            elif answer.lower() == "quit":
+                quit(0)
+    if player.current_location == Room_14:
+        guess = 0
+        while True:
+            print("What gets wetter and wetter the more something else dries")
+            print()
+            answer = input("Type your guess as many times as you want or quit.")
+            if answer.lower() == "towel":
+                print("You are correct")
+                break
+            elif answer.lower() == "quit":
+                quit(0)
     if player.current_location.item is not None:
         for item in player.current_location.item:
             print("There is an item: %s" % item.name.lower())
+
     command = input(">_")
 
     if command.lower() in short_directions:
         pos = short_directions.index(command.lower())
         command = directions[pos]
 
-    if player.current_location.item is not None and command.lower() in ['pick up', 'grab']:
-        for item in player.current_location.item:
-            player.inventory.append(item)
-            print("Your player picked up the %s" % item.name.lower())
-        player.current_location.item = None
+    if command.lower() in ['pick up', 'grab', 'take']:
+        if player.current_location.item is not None and len(player.current_location.item) > 0:
+            for item in player.current_location.item:
+                player.inventory.append(item)
+                print("Your player picked up the %s " % item.name.lower())
+            player.current_location.item = None
     elif command.lower() in {'q', 'quit', 'exit'}:
         playing = False
     elif command.lower() in directions:
@@ -287,15 +321,7 @@ while playing:
         if len(player.inventory) >= 15:
             print("CONGRATS!!!!!!!!")
             quit(0)
-    if player.current_location == Room_12:
-        guess = 5
-        while True:
-            print("David's father has three sons : Snap, Crackle and ----- ?")
-            print()
-            answer = input("Type your guess as many times as you want or quit.")
-            if answer == "david":
-                print("You are correct")
-                break
+
 
 
 

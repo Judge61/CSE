@@ -42,11 +42,11 @@
     <SUITE FILE_PATH="coverage/CSE$mapp.coverage" NAME="mapp Coverage Results" MODIFIED="1551303072848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$test.coverage" NAME="test Coverage Results" MODIFIED="1550770262123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$riddles.coverage" NAME="riddles Coverage Results" MODIFIED="1558455922353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
-    <SUITE FILE_PATH="coverage/CSE$World_Map_oop___Judge_Amandeep.coverage" NAME="World Map oop - Judge Amandeep Coverage Results" MODIFIED="1558454101600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$World_Map_oop___Judge_Amandeep.coverage" NAME="World Map oop - Judge Amandeep Coverage Results" MODIFIED="1558628949863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$testing_game.coverage" NAME="testing game Coverage Results" MODIFIED="1556295493787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$small.coverage" NAME="small Coverage Results" MODIFIED="1550079170630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$something.coverage" NAME="something Coverage Results" MODIFIED="1550079674311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
-    <SUITE FILE_PATH="coverage/CSE$testinggggg.coverage" NAME="testinggggg Coverage Results" MODIFIED="1558456467367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$testinggggg.coverage" NAME="testinggggg Coverage Results" MODIFIED="1558629436642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$hurehu.coverage" NAME="hurehu Coverage Results" MODIFIED="1551979226386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
   </component>
   <component name="DatabaseView">
@@ -71,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validator - Amandeep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="340">
               <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
@@ -88,6 +88,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sales_Records.csv">
+          <provider editor-type-id="LargeFileEditor">
+            <state relative-caret-position="173808">
+              <caret line="10224" column="93" selection-start-line="10224" selection-start-column="93" selection-end-line="10224" selection-end-column="93" />
+            </state>
+          </provider>
           <provider selected="true" editor-type-id="csv-data-editor">
             <state>
               <format>
@@ -104,18 +109,13 @@
               </format>
             </state>
           </provider>
-          <provider editor-type-id="LargeFileEditor">
-            <state relative-caret-position="173808">
-              <caret line="10224" column="93" selection-start-line="10224" selection-start-column="93" selection-end-line="10224" selection-end-column="93" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/World Map oop - Judge Amandeep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="293" lean-forward="true" selection-start-line="293" selection-end-line="293" />
+            <state relative-caret-position="280">
+              <caret line="260" lean-forward="true" selection-start-line="260" selection-end-line="260" />
             </state>
           </provider>
         </entry>
@@ -123,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes/testinggggg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="458">
+              <caret line="214" column="61" lean-forward="true" selection-start-line="214" selection-start-column="61" selection-end-line="214" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -137,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/Python Hangman - Amandeep Judge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="119">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -177,6 +177,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>short_directions</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -234,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -414,10 +419,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.testinggggg" />
+        <item itemvalue="Python.World Map oop - Judge Amandeep" />
         <item itemvalue="Python.riddles" />
         <item itemvalue="Python.Python Hangman - Amandeep Judge" />
         <item itemvalue="Python.profits" />
-        <item itemvalue="Python.World Map oop - Judge Amandeep" />
       </list>
     </recent_temporary>
   </component>
@@ -447,12 +452,13 @@
       <workItem from="1557935453662" duration="2473000" />
       <workItem from="1558021795626" duration="3483000" />
       <workItem from="1558111890517" duration="2953000" />
-      <workItem from="1558450104404" duration="6178000" />
+      <workItem from="1558450104404" duration="6236000" />
+      <workItem from="1558622950209" duration="5727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58766000" />
+    <option name="totallyTimeSpent" value="64551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -460,10 +466,10 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.2647504" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.32980332" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.26012793" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.26279318" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3261105" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3261105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -706,19 +712,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regions.py">
+    <entry file="file://$PROJECT_DIR$/profits.py" />
+    <entry file="file://$PROJECT_DIR$/notes/Amandeep Judge - Hangman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyNewFile.csv">
+    <entry file="file://$PROJECT_DIR$/notes/Judge Amandeep - Hangman.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/validator - Amandeep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="340">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
@@ -727,13 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -760,6 +763,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes/riddles.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Python Hangman - Amandeep Judge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/csv notes - amandeep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -767,43 +790,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Amandeep Judge - Hangman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Judge Amandeep - Hangman.py">
+    <entry file="file://$PROJECT_DIR$/MyNewFile.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Python Hangman - Amandeep Judge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/World Map oop - Judge Amandeep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="293" lean-forward="true" selection-start-line="293" selection-end-line="293" />
+        <state relative-caret-position="280">
+          <caret line="260" lean-forward="true" selection-start-line="260" selection-end-line="260" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/riddles.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes/testinggggg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="458">
+          <caret line="214" column="61" lean-forward="true" selection-start-line="214" selection-start-column="61" selection-end-line="214" selection-end-column="61" />
         </state>
       </provider>
     </entry>
